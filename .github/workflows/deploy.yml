@@ -42,7 +42,7 @@ jobs:
       - name: Upload hosting assets
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # If your project uses React Scripts / CRA instead of Vite, change this to './build'
+          path: './build' # Changed to ./build for Create React App
 
       - name: Deploy to GitHub Pages
         id: deployment
