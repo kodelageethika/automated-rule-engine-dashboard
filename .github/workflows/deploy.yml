@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'main'
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -20,9 +21,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      name: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        - name: Set up Node.js
+
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
