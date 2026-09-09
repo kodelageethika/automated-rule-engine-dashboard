@@ -1,0 +1,6 @@
+{
+  "name": "National Unified Material Master",
+  "description": "Cross-CPSE material master rationalization platform with deterministic technical validation, explainable matching, and Common National Material Code governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

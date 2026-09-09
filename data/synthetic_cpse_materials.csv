@@ -1,0 +1,106 @@
+Record_ID,CPSE,Material_Code,Raw_Description,UOM,Category,Standard,Material,Grade,Size,Specification,Application,Source_System,Legacy_Status,Description_Language,Data_Quality_Flag,Expected_Demo_Label
+1,CPSE-A,MAT-A-0001,Hex Bolt M10 x 50 SS304,EA,Fasteners,IS 1367,Stainless Steel,SS304,M10,50 mm,General machinery,SAP,ACTIVE,EN,,G001
+2,CPSE-B,MAT-B-0001,HEXAGONAL BOLT 10MM X 50MM SS 304,NOS,Fastener,IS1367,Stainless Steel,SS304,10 mm,50mm,General machinery,Oracle ERP,ACTIVE,EN,ABBREVIATION,G001
+3,CPSE-C,MAT-C-0001,Hex HD Bolt M10 50 SS304,PCS,Bolts,IS 1367,SS,304,M10,50,General machinery,SAP,ACTIVE,EN,UOM_VARIATION,G001
+4,CPSE-A,MAT-A-0002,Hex Bolt M10 x 50 SS316,EA,Fasteners,IS 1367,Stainless Steel,SS316,M10,50 mm,Corrosive environment,SAP,ACTIVE,EN,,
+5,CPSE-B,MAT-B-0002,Mild Steel Plate 10mm 2000 x 1000 IS2062,KG,Plates,IS 2062,Mild Steel,E250,10 mm,2000 x 1000 mm,Structural fabrication,Oracle ERP,ACTIVE,EN,,G002
+6,CPSE-C,MAT-C-0002,MS PLT 10 MM THK 2M X 1M,KG,Steel Plate,IS2062,Mild Steel,E250,10 mm,2000 x 1000 mm,Structural fabrication,SAP,ACTIVE,EN,ABBREVIATION,G002
+7,CPSE-A,MAT-A-0003,M.S. Plate 12 mm x 2500 x 1250 E350,KG,Plates,IS 2062,Mild Steel,E350,12 mm,2500 x 1250 mm,Structural fabrication,SAP,ACTIVE,EN,ABBREVIATION,G003
+8,CPSE-B,MAT-B-0003,MS PLATE 12MM 2500MM X 1250MM E350,KG,Steel Plates,IS2062,MS,E350,12 mm,2500 x 1250 mm,Structural fabrication,Oracle ERP,ACTIVE,EN,ABBREVIATION,G003
+9,CPSE-C,MAT-C-0003,Carbon Steel Pipe 2 inch Sch 40 ASTM A106,M,Pipes,ASTM A106,Carbon Steel,Grade B,2 in,Schedule 40,Steam service,SAP,ACTIVE,EN,,G004
+10,CPSE-A,MAT-A-0004,CS PIPE 50NB SCH40 A106 GR.B,M,Piping,ASTM A106,Carbon Steel,Gr.B,50 NB,Sch 40,Steam service,SAP,ACTIVE,EN,,G004
+11,CPSE-B,MAT-B-0004,Carbon Steel Pipe 50 NB Sch 80 ASTM A106 Gr B,M,Pipes,ASTM A106,Carbon Steel,Grade B,50 NB,Schedule 80,High pressure service,Oracle ERP,ACTIVE,EN,,
+12,CPSE-C,MAT-C-0004,SS Pipe 2in Sch40 ASTM A312 TP304,M,Pipes,ASTM A312,Stainless Steel,TP304,2 in,Sch 40,Process line,SAP,ACTIVE,EN,,
+13,CPSE-A,MAT-A-0005,Stainless Steel Pipe 50NB SCH40 TP304,M,Piping,ASTM A312,SS,304,50 NB,Sch40,Process line,SAP,ACTIVE,EN,,G005
+14,CPSE-B,MAT-B-0005,Gate Valve 50 NB Class 150 RF CS,EA,Valves,API 600,Carbon Steel,A216 WCB,50 NB,Class 150,Isolation service,Oracle ERP,ACTIVE,EN,,G005
+15,CPSE-C,MAT-C-0005,CS GATE VALVE 2 IN 150# RF,NOS,Valves,API600,Carbon Steel,WCB,2 in,150 lb,Isolation service,SAP,ACTIVE,EN,UOM_VARIATION,
+16,CPSE-A,MAT-A-0006,Gate Valve 50NB Class 300 RF SS316,EA,Valves,API 600,Stainless Steel,SS316,50 NB,Class 300,Corrosive process,SAP,ACTIVE,EN,,
+17,CPSE-B,MAT-B-0006,Globe Valve 25 NB Class 150 RF CS,EA,Valves,API 623,Carbon Steel,A216 WCB,25 NB,Class 150,Flow control,Oracle ERP,ACTIVE,EN,,
+18,CPSE-C,MAT-C-0006,Ball Valve 25NB 150 Class SS316,EA,Valves,API 608,Stainless Steel,SS316,25 NB,Class 150,Process isolation,SAP,ACTIVE,EN,,G006
+19,CPSE-A,MAT-A-0007,SS316 Hex Nut M10,EA,Fasteners,IS 1367,Stainless Steel,SS316,M10,,General assembly,SAP,ACTIVE,EN,,G006
+20,CPSE-B,MAT-B-0007,HEX NUT M10 SS 316,NOS,Fasteners,IS1367,SS,316,10 mm,,General assembly,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+21,CPSE-C,MAT-C-0007,Hex Nut M12 SS304,PCS,Fasteners,IS 1367,SS304,304,M12,,General assembly,SAP,ACTIVE,EN,UOM_VARIATION,
+22,CPSE-A,MAT-A-0008,Flat Washer M10 SS304,EA,Fasteners,IS 2016,Stainless Steel,SS304,M10,,General assembly,SAP,ACTIVE,EN,,
+23,CPSE-B,MAT-B-0008,PLAIN WASHER 10MM SS 304,NOS,Washers,IS2016,SS,304,10 mm,,General assembly,Oracle ERP,ACTIVE,EN,ABBREVIATION,
+24,CPSE-C,MAT-C-0008,Spring Washer M10 Carbon Steel,EA,Washers,IS 3063,Carbon Steel,,M10,,Vibration locking,SAP,ACTIVE,EN,,
+25,CPSE-A,MAT-A-0009,Welding Electrode E7018 3.15mm,KG,Welding Consumables,AWS A5.1,Low Alloy Steel,E7018,3.15 mm,,Structural welding,SAP,ACTIVE,EN,,G007
+26,CPSE-B,MAT-B-0009,E 7018 Welding Rod 3.15 MM,KG,Welding Rods,AWS A5.1,Low Alloy Steel,E7018,3.15 mm,,Structural welding,Oracle ERP,ACTIVE,EN,,G007
+27,CPSE-C,MAT-C-0009,WELDING ELECTRODE E6013 3.15MM,KG,Welding Consumables,AWS A5.1,Mild Steel,E6013,3.15 mm,,General fabrication,SAP,ACTIVE,EN,,
+28,CPSE-A,MAT-A-0010,PTFE Gasket DN50 Class150,EA,Gaskets,ASME B16.21,PTFE,PTFE,DN50,Class 150,Flange sealing,SAP,ACTIVE,EN,,
+29,CPSE-B,MAT-B-0010,PTFE FLANGE GASKET 50NB 150#,NOS,Gaskets,ASME B16.21,PTFE,PTFE,50 NB,150 lb,Flange sealing,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G008
+30,CPSE-C,MAT-C-0010,Spiral Wound Gasket 50NB Class150 SS316/Graphite,EA,Gaskets,ASME B16.20,SS/Graphite,316,50 NB,Class 150,High temperature sealing,SAP,ACTIVE,EN,,G008
+31,CPSE-A,MAT-A-0011,Carbon Steel Elbow 50NB Sch40 90 Deg,EA,Pipe Fittings,ASME B16.9,Carbon Steel,A234 WPB,50 NB,"Sch40, 90°",Piping,SAP,ACTIVE,EN,,
+32,CPSE-B,MAT-B-0011,CS ELBOW 2 IN 90 DEG SCH 40,NOS,Fittings,ASME B16.9,CS,WPB,2 in,Schedule 40,Piping,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G009
+33,CPSE-C,MAT-C-0011,CS ELBOW 50 NB SCH80 90 DEG,EA,Pipe Fittings,ASME B16.9,Carbon Steel,A234 WPB,50 NB,"Sch80, 90°",High pressure piping,SAP,ACTIVE,EN,,G009
+34,CPSE-A,MAT-A-0012,SS316 Elbow 25NB Sch40 90 Deg,EA,Pipe Fittings,ASME B16.9,Stainless Steel,ASTM A403 WP316,25 NB,"Sch40, 90°",Corrosive piping,SAP,ACTIVE,EN,,
+35,CPSE-B,MAT-B-0012,SS 316 25NB 90° ELBOW SCH 40,NOS,Fittings,ASME B16.9,SS316,WP316,25 NB,"Sch40, 90°",Corrosive piping,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+36,CPSE-C,MAT-C-0012,Reducer Concentric 50x25 NB CS Sch40,EA,Pipe Fittings,ASME B16.9,Carbon Steel,A234 WPB,50x25 NB,Sch40,Piping transition,SAP,ACTIVE,EN,,G010
+37,CPSE-A,MAT-A-0013,Concentric Reducer 2 x 1 inch CS SCH40,EA,Fittings,ASME B16.9,Carbon Steel,WPB,2x1 in,Sch40,Piping transition,SAP,ACTIVE,EN,,G010
+38,CPSE-B,MAT-B-0013,CS REDUCER CONC 50 X 25 NB SCH40,NOS,Pipe Fittings,ASME B16.9,CS,A234 WPB,50x25 NB,Sch40,Piping transition,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G011
+39,CPSE-C,MAT-C-0013,Copper Cable 1C x 35 sqmm XLPE PVC 1kV,M,Cables,IS 7098,Copper,XLPE/PVC,35 sq mm,1 kV,Power distribution,SAP,ACTIVE,EN,,G011
+40,CPSE-A,MAT-A-0014,1 Core Cu Cable 35mm2 XLPE/PVC 1.1kV,M,Electrical Cable,IS 7098,Copper,XLPE/PVC,35 sq mm,1.1 kV,Power distribution,SAP,ACTIVE,EN,,
+41,CPSE-B,MAT-B-0014,CU CABLE 1C 35 SQ MM XLPE PVC 1KV,M,Cables,IS7098,Copper,XLPE/PVC,35 sq mm,1 kV,Power distribution,Oracle ERP,ACTIVE,EN,,
+42,CPSE-C,MAT-C-0014,Aluminium Cable 1C 35 sqmm XLPE PVC 1.1kV,M,Cables,IS 7098,Aluminium,XLPE/PVC,35 sq mm,1.1 kV,Power distribution,SAP,ACTIVE,EN,,G012
+43,CPSE-A,MAT-A-0015,Armoured Power Cable 3C x 95 sqmm 11kV,M,Power Cables,IS 7098,Aluminium,XLPE,95 sq mm,11 kV,Distribution feeder,SAP,ACTIVE,EN,,G012
+44,CPSE-B,MAT-B-0015,3 CORE 95 SQMM AL XLPE ARMOURED 11KV CABLE,M,Cables,IS7098,Aluminium,XLPE,95 sq mm,11 kV,Distribution feeder,Oracle ERP,ACTIVE,EN,,
+45,CPSE-C,MAT-C-0015,3C x 95mm2 Cu XLPE Armoured Cable 11kV,M,Power Cables,IS 7098,Copper,XLPE,95 sq mm,11 kV,Distribution feeder,SAP,ACTIVE,EN,,
+46,CPSE-A,MAT-A-0016,Copper Lug 35 sqmm M10 Hole,EA,Electrical Accessories,IS 8309,Copper,Tinned Copper,35 sq mm,M10,Cable termination,SAP,ACTIVE,EN,,G013
+47,CPSE-B,MAT-B-0016,CU CRIMPING LUG 35MM2 M10,NOS,Cable Lugs,IS8309,Copper,Tinned,35 sq mm,M10,Cable termination,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G013
+48,CPSE-C,MAT-C-0016,Copper Lug 50 sqmm M10,EA,Electrical Accessories,IS 8309,Copper,Tinned Copper,50 sq mm,M10,Cable termination,SAP,ACTIVE,EN,,
+49,CPSE-A,MAT-A-0017,MCCB 100A 4P 25kA 415V,EA,Switchgear,IEC 60947-2,Electrical,,100 A,"415 V, 25 kA",LV protection,SAP,ACTIVE,EN,,
+50,CPSE-B,MAT-B-0017,4 POLE MCCB 100 AMP 415V 25KA,NOS,Circuit Breakers,IEC60947-2,Electrical,,100 A,"415 V, 25 kA",LV protection,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G014
+51,CPSE-C,MAT-C-0017,MCCB 100A 4P 36kA 415V,EA,Switchgear,IEC 60947-2,Electrical,,100 A,"415 V, 36 kA",LV protection,SAP,ACTIVE,EN,,G014
+52,CPSE-A,MAT-A-0018,Contactor 32A 3P Coil 230VAC,EA,Switchgear,IEC 60947-4-1,Electrical,,32 A,230 VAC,Motor control,SAP,ACTIVE,EN,,
+53,CPSE-B,MAT-B-0018,3P AC CONTACTOR 32A 230V COIL,NOS,Contactors,IEC60947-4-1,Electrical,,32 A,230 VAC,Motor control,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+54,CPSE-C,MAT-C-0018,Contactor 40A 3P Coil 230VAC,EA,Switchgear,IEC 60947-4-1,Electrical,,40 A,230 VAC,Motor control,SAP,ACTIVE,EN,,G015
+55,CPSE-A,MAT-A-0019,Industrial Bearing 6205-2RS C3,EA,Bearings,ISO 15,Bearing Steel,C3,25x52x15 mm,,Motor,SAP,ACTIVE,EN,,G015
+56,CPSE-B,MAT-B-0019,BEARING 6205 2RS C3,NOS,Bearings,ISO15,Bearing Steel,C3,25 x 52 x 15 mm,,Motor,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+57,CPSE-C,MAT-C-0019,Deep Groove Ball Bearing 6205 ZZ C3,EA,Bearings,ISO 15,Bearing Steel,C3,25x52x15 mm,,Motor,SAP,ACTIVE,EN,,
+58,CPSE-A,MAT-A-0020,Bearing 6306-2RS C3,EA,Bearings,ISO 15,Bearing Steel,C3,30x72x19 mm,,Pump,SAP,ACTIVE,EN,,G016
+59,CPSE-B,MAT-B-0020,DEEP GROOVE BALL BEARING 6306 2RS C3,NOS,Bearings,ISO15,Bearing Steel,C3,30x72x19 mm,,Pump,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G016
+60,CPSE-C,MAT-C-0020,Bearing 6306 ZZ C4,EA,Bearings,ISO 15,Bearing Steel,C4,30x72x19 mm,,High temperature motor,SAP,ACTIVE,EN,,
+61,CPSE-A,MAT-A-0021,Mechanical Seal 40mm Carbon/Ceramic,EA,Mechanical Seals,API 682,Carbon/Ceramic,,40 mm,,Pump,SAP,ACTIVE,EN,,
+62,CPSE-B,MAT-B-0021,MECH SEAL 40MM CARBON CERAMIC,NOS,Seals,API682,Carbon/Ceramic,,40 mm,,Pump,Oracle ERP,ACTIVE,EN,ABBREVIATION,G017
+63,CPSE-C,MAT-C-0021,Mechanical Seal 50mm Carbon/SiC,EA,Mechanical Seals,API 682,Carbon/Silicon Carbide,,50 mm,,Pump,SAP,ACTIVE,EN,,G017
+64,CPSE-A,MAT-A-0022,O-Ring NBR 70 Shore 25 x 3 mm,EA,Seals,ISO 3601,NBR,70 Shore A,25 x 3 mm,,Hydraulic sealing,SAP,ACTIVE,EN,,
+65,CPSE-B,MAT-B-0022,NITRILE O RING 25X3MM 70 SHORE,NOS,O-Rings,ISO3601,NBR,70 Shore A,25 x 3 mm,,Hydraulic sealing,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+66,CPSE-C,MAT-C-0022,O-Ring Viton 75 Shore 25 x 3 mm,EA,Seals,ISO 3601,FKM,75 Shore A,25 x 3 mm,,Chemical sealing,SAP,ACTIVE,EN,,G018
+67,CPSE-A,MAT-A-0023,Hydraulic Hose 1/2 inch 2 Wire 3000 PSI,M,Hoses,SAE 100R2,Rubber/Steel,R2,1/2 in,3000 psi,Hydraulics,SAP,ACTIVE,EN,,G018
+68,CPSE-B,MAT-B-0023,HYD HOSE 1/2 IN 2 WIRE 3000PSI,M,Hydraulic Hoses,SAE100R2,Rubber/Steel,R2,1/2 in,3000 psi,Hydraulics,Oracle ERP,ACTIVE,EN,ABBREVIATION,
+69,CPSE-C,MAT-C-0023,Hydraulic Hose 1/2in 2 Wire 5000 PSI,M,Hoses,SAE 100R2,Rubber/Steel,R2,1/2 in,5000 psi,High pressure hydraulics,SAP,ACTIVE,EN,,
+70,CPSE-A,MAT-A-0024,Air Filter Element 10 micron 250mm,EA,Filters,ISO 16890,Synthetic Media,,250 mm,10 micron,Compressed air,SAP,ACTIVE,EN,,G019
+71,CPSE-B,MAT-B-0024,AIR FILTER 10 MICRON 250 MM,NOS,Filters,ISO16890,Synthetic,,250 mm,10 micron,Compressed air,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G019
+72,CPSE-C,MAT-C-0024,Oil Filter Element 10 micron 250mm,EA,Filters,ISO 16889,Cellulose,,250 mm,10 micron,Lubrication,SAP,ACTIVE,EN,,
+73,CPSE-A,MAT-A-0025,Pressure Gauge 0-10 bar 100mm SS316,EA,Instrumentation,EN 837-1,SS316,,100 mm,0-10 bar,Process pressure,SAP,ACTIVE,EN,,
+74,CPSE-B,MAT-B-0025,PRESSURE GAUGE 100MM 0-10 BAR SS316,NOS,Gauges,EN837-1,SS316,,100 mm,0-10 bar,Process pressure,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G020
+75,CPSE-C,MAT-C-0025,Pressure Gauge 0-16 bar 100mm SS316,EA,Instrumentation,EN 837-1,SS316,,100 mm,0-16 bar,Process pressure,SAP,ACTIVE,EN,,G020
+76,CPSE-A,MAT-A-0026,Temperature Gauge 0-200C 100mm SS316,EA,Instrumentation,EN 13190,SS316,,100 mm,0-200 °C,Process temperature,SAP,ACTIVE,EN,,
+77,CPSE-B,MAT-B-0026,TEMP GAUGE 100MM 0-200 DEG C SS316,NOS,Temperature Gauges,EN13190,SS316,,100 mm,0-200 C,Process temperature,Oracle ERP,ACTIVE,EN,ABBREVIATION,
+78,CPSE-C,MAT-C-0026,RTD Sensor PT100 0-200C 3 Wire,EA,Instrumentation,IEC 60751,Platinum,PT100,,0-200 °C,Temperature measurement,SAP,ACTIVE,EN,,G021
+79,CPSE-A,MAT-A-0027,PT100 RTD 3 Wire 0-200C,EA,Sensors,IEC 60751,Platinum,PT100,,0-200 C,Temperature measurement,SAP,ACTIVE,EN,,G021
+80,CPSE-B,MAT-B-0027,RTD PT100 3-WIRE 200 DEG C,NOS,Temperature Sensors,IEC60751,Platinum,PT100,,0-200°C,Temperature measurement,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+81,CPSE-C,MAT-C-0027,Thermocouple Type K 0-400C,EA,Sensors,IEC 60584,Chromel/Alumel,Type K,,0-400 °C,Temperature measurement,SAP,ACTIVE,EN,,
+82,CPSE-A,MAT-A-0028,Motor 15kW 415V 4P IE3 TEFC,EA,Motors,IEC 60034,Aluminium/Cast Iron,IE3,15 kW,"415 V, 4 pole",Pump drive,SAP,ACTIVE,EN,,G022
+83,CPSE-B,MAT-B-0028,15 KW 3PH MOTOR 415V 4 POLE IE3 TEFC,NOS,Electric Motors,IEC60034,Motor,IE3,15 kW,"415 V, 4 pole",Pump drive,Oracle ERP,ACTIVE,EN,UOM_VARIATION,G022
+84,CPSE-C,MAT-C-0028,Motor 15kW 415V 2P IE3 TEFC,EA,Motors,IEC 60034,Motor,IE3,15 kW,"415 V, 2 pole",Fan drive,SAP,ACTIVE,EN,,
+85,CPSE-A,MAT-A-0029,Centrifugal Pump 50 m3/hr 40m Head SS316,EA,Pumps,API 610,SS316,,50 m3/hr,40 m head,Process water,SAP,ACTIVE,EN,,
+86,CPSE-B,MAT-B-0029,CENT PUMP 50 CUM/HR 40M HEAD SS316,NOS,Centrifugal Pumps,API610,SS316,,50 m3/hr,40 m,Process water,Oracle ERP,ACTIVE,EN,ABBREVIATION,G023
+87,CPSE-C,MAT-C-0029,Centrifugal Pump 60 m3/hr 40m Head SS316,EA,Pumps,API 610,SS316,,60 m3/hr,40 m head,Process water,SAP,ACTIVE,EN,,G023
+88,CPSE-A,MAT-A-0030,Safety Helmet IS2925 Yellow,EA,PPE,IS 2925,HDPE,,,,Site safety,SAP,ACTIVE,EN,,
+89,CPSE-B,MAT-B-0030,SAFETY HELMET YELLOW IS 2925,NOS,Safety PPE,IS2925,HDPE,,,,Site safety,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+90,CPSE-C,MAT-C-0030,Safety Helmet IS2925 White,EA,PPE,IS 2925,HDPE,,,,Site safety,SAP,ACTIVE,EN,,G024
+91,CPSE-A,MAT-A-0031,Safety Shoe Steel Toe Size 9,PAIR,PPE,IS 15298,Leather/PU,Steel Toe,9,,Site safety,SAP,ACTIVE,EN,UOM_VARIATION,G024
+92,CPSE-B,MAT-B-0031,STEEL TOE SAFETY SHOE SIZE 9,PAIR,Safety Shoes,IS15298,Leather/PU,Steel Toe,9,,Site safety,Oracle ERP,ACTIVE,EN,UOM_VARIATION,
+93,CPSE-C,MAT-C-0031,Safety Shoe Steel Toe Size 10,PAIR,PPE,IS 15298,Leather/PU,Steel Toe,10,,Site safety,SAP,ACTIVE,EN,UOM_VARIATION,
+94,CPSE-A,MAT-A-0032,Fire Extinguisher ABC 4kg,EA,Fire Protection,IS 15683,Dry Chemical,ABC,4 kg,,Fire safety,SAP,ACTIVE,EN,,G025
+95,CPSE-B,MAT-B-0032,ABC TYPE DCP FIRE EXTINGUISHER 4 KG,NOS,Fire Extinguishers,IS15683,Dry Chemical,ABC,4 kg,,Fire safety,Oracle ERP,ACTIVE,EN,ABBREVIATION,G025
+96,CPSE-C,MAT-C-0032,ABC Fire Extinguisher 6kg,EA,Fire Protection,IS 15683,Dry Chemical,ABC,6 kg,,Fire safety,SAP,ACTIVE,EN,,
+97,CPSE-A,MAT-A-0033,Industrial Lubricating Oil ISO VG 68,L,Lubricants,ISO 3448,Mineral Oil,ISO VG 68,,,Gearbox lubrication,SAP,ACTIVE,EN,,G026
+98,CPSE-B,MAT-B-0033,LUBE OIL ISO VG68,L,Lubricants,ISO3448,Mineral Oil,VG 68,,,Gearbox lubrication,Oracle ERP,ACTIVE,EN,ABBREVIATION,G026
+99,CPSE-C,MAT-C-0033,Hydraulic Oil ISO VG 46,L,Lubricants,ISO 3448,Mineral Oil,VG 46,,,Hydraulics,SAP,ACTIVE,EN,,G026
+100,CPSE-A,MAT-A-0034,Grease Lithium EP2 18kg,KG,Lubricants,NLGI,Lithium,EP2,,18 kg pack,Bearing lubrication,SAP,ACTIVE,EN,,
+101,CPSE-B,MAT-B-0034,LITHIUM EP2 GREASE 18 KG,KG,Grease,NLGI,Lithium,EP2,,18kg pack,Bearing lubrication,Oracle ERP,ACTIVE,EN,,
+102,CPSE-C,MAT-C-0034,Grease Lithium EP3 18kg,KG,Lubricants,NLGI,Lithium,EP3,,18 kg pack,Heavy load lubrication,SAP,ACTIVE,EN,,G027
+103,CPSE-A,MAT-A-0035,Transformer Oil IEC 60296 210 L Drum,L,Transformer Oil,IEC 60296,Mineral Oil,,,210 L,Power transformer,SAP,ACTIVE,EN,,G027
+104,CPSE-B,MAT-B-0035,TRANSFORMER OIL IEC60296 210 LTR DRUM,L,Insulating Oil,IEC60296,Mineral Oil,,,210 L,Power transformer,Oracle ERP,ACTIVE,EN,,
+105,CPSE-C,MAT-C-0035,Transformer Oil IEC 60296 200 L Drum,L,Transformer Oil,IEC 60296,Mineral Oil,,,200 L,Power transformer,SAP,ACTIVE,EN,,
