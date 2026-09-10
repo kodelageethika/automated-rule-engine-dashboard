@@ -23,7 +23,7 @@ interface CriticalCase {
     naive_verdict: string;
     why_naive_fails: string;
   };
-  safety_veto_result: {
+  matrix_veto_result: {
     rule_id: string;
     action: string;
     severity: string;
@@ -56,7 +56,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'SAME_MATERIAL / MERGE',
       why_naive_fails: 'Naive cosine token similarity sees identical category, diameter (10mm), length (50mm), and standard (IS 1367). Only one digit differs (304 vs 316).',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-FAST-01',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -87,7 +87,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'SAME_MATERIAL / MERGE',
       why_naive_fails: 'Both are 50 NB seamless carbon steel pipes conforming to ASTM A106 Grade B. NLP vectors treat "Sch 40" and "Sch 80" as minor textual variants.',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-PIPE-01',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -118,7 +118,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'NEAR_DUPLICATE / MERGE',
       why_naive_fails: 'Both are 100A 4-Pole 415V circuit breakers under standard IEC 60947-2. The textual distance between "25kA" and "36kA" is minuscule in vector embedding space.',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-ELEC-02',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -149,7 +149,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'FUNCTIONALLY_EQUIVALENT',
       why_naive_fails: 'Identical power (15 kW), voltage (415V), efficiency (IE3), and mechanical frame series.',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-MOTOR-01',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -180,7 +180,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'NEAR_DUPLICATE',
       why_naive_fails: 'Same voltage (1.1kV), same cores (3C), same cross-section (35 sq mm), same insulation (XLPE), same IS standard.',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-ELEC-03',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -211,7 +211,7 @@ export const CRITICAL_CASES: CriticalCase[] = [
       naive_verdict: 'NEAR_DUPLICATE',
       why_naive_fails: 'Both are 1/2 inch hydraulic hoses for fluid transfer.',
     },
-    safety_veto_result: {
+    matrix_veto_result: {
       rule_id: 'R-HOSE-01',
       action: 'HARD_REJECT',
       severity: 'CRITICAL',
@@ -264,7 +264,7 @@ export const SafetyVetoShowcase: React.FC = () => {
               }`}
             >
               <span className="text-[10px] font-mono text-rose-400 block truncate">
-                {c.safety_veto_result.rule_id}
+                {c.matrix_veto_result.rule_id}
               </span>
               <span className="text-xs font-bold block truncate mt-0.5 text-slate-200">
                 {c.title.split(':')[0]}
@@ -284,7 +284,7 @@ export const SafetyVetoShowcase: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="text-xs font-mono font-bold text-rose-400 bg-rose-950 px-2 py-0.5 rounded border border-rose-800">
-                Rule: {currentCase.safety_veto_result.rule_id}
+                Rule: {currentCase.matrix_veto_result.rule_id}
               </span>
               <span className="text-xs text-slate-400">Industry: {currentCase.industry}</span>
             </div>
@@ -325,7 +325,7 @@ export const SafetyVetoShowcase: React.FC = () => {
           </div>
         </div>
 
-        {/* Head-to-Head Comparison: Naive Vector vs Deterministic Rules */}
+        {/* Head-to-Head Comparison: Naive Vector vs Deterministic Veto */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Naive Vector Model Failure Card */}
           <div className="bg-slate-950 border border-slate-800 rounded-xl p-5 space-y-3 relative overflow-hidden">
@@ -357,7 +357,7 @@ export const SafetyVetoShowcase: React.FC = () => {
             </div>
           </div>
 
-          {/* Deterministic Safety Veto Card */}
+          {/* Deterministic Veto Card */}
           <div className="bg-slate-950 border border-rose-900/60 rounded-xl p-5 space-y-3 relative overflow-hidden shadow-lg shadow-rose-950/20">
             <div className="absolute top-0 right-0 w-2 h-full bg-rose-500" />
             <div className="flex items-center justify-between">
@@ -372,7 +372,7 @@ export const SafetyVetoShowcase: React.FC = () => {
 
             <div className="flex items-baseline gap-2">
               <span className="text-3xl font-bold font-mono text-rose-400">
-                {currentCase.safety_veto_result.rule_id}
+                {currentCase.matrix_veto_result.rule_id}
               </span>
               <span className="text-xs text-rose-300">Rule Triggered</span>
             </div>
@@ -381,11 +381,11 @@ export const SafetyVetoShowcase: React.FC = () => {
               <div className="text-slate-300">
                 Enforced Action:{' '}
                 <strong className="text-rose-400">
-                  {currentCase.safety_veto_result.action} ({currentCase.safety_veto_result.severity})
+                  {currentCase.matrix_veto_result.action} ({currentCase.matrix_veto_result.severity})
                 </strong>
               </div>
               <p className="text-rose-200/90 leading-relaxed bg-rose-950/30 p-2.5 rounded border border-rose-900/50">
-                {currentCase.safety_veto_result.engineering_reason}
+                {currentCase.matrix_veto_result.engineering_reason}
               </p>
             </div>
           </div>
@@ -399,7 +399,7 @@ export const SafetyVetoShowcase: React.FC = () => {
               Potential Physical Disaster Prevented by Deterministic Rules:
             </strong>
             <span className="text-slate-300">
-              {currentCase.safety_veto_result.disaster_consequence}
+              {currentCase.matrix_veto_result.disaster_consequence}
             </span>
           </div>
         </div>

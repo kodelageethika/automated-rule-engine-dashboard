@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import { RAW_SYNTHETIC_DATASET } from './data/syntheticData';
 import { INITIAL_TECHNICAL_RULES } from './engine/technicalRules';
-import { runUnifiedPipeline, PipelineResult } from './engine/pipeline';
+import { runMatrixPipeline, PipelineResult } from './engine/pipeline';
 import { AuditLogEntry, RawMaterialRecord, RuleSeverity, TechnicalRule } from './types';
 import { Header } from './components/Header';
 import { MetricCards } from './components/MetricCards';
@@ -23,7 +23,7 @@ export default function App() {
 
   // Run pipeline computation
   const pipelineResult: PipelineResult = useMemo(() => {
-    return runUnifiedPipeline(rawRecords, rules);
+    return runMatrixPipeline(rawRecords, rules);
   }, [rawRecords, rules]);
 
   // Handle re-running the entire pipeline
@@ -256,7 +256,7 @@ export default function App() {
       <footer className="border-t border-slate-800 bg-slate-900 py-5 text-center text-xs text-slate-400 mt-12">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>
-            National Unified Material Master Framework • CPSE Rationalization Platform
+            National Unified Material Master Framework • Smart India Hackathon Prototype
           </span>
           <span className="text-slate-400">
             CPSE-A (Oil & Gas) • CPSE-B (Power & Grid) • CPSE-C (Steel & Heavy Eng)

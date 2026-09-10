@@ -49,9 +49,6 @@ export const Header: React.FC<HeaderProps> = ({
                 Deterministic CPSE Master Harmonization
               </span>
             </div>
-            <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2 mt-0.5">
-              National Unified Material Master
-            </h1>
           </div>
         </div>
 

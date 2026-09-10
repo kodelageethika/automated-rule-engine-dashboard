@@ -31,7 +31,7 @@ export interface PipelineResult {
   };
 }
 
-export function runUnifiedPipeline(
+export function runMatrixPipeline(
   rawRecords: RawMaterialRecord[],
   activeRules: TechnicalRule[] = INITIAL_TECHNICAL_RULES
 ): PipelineResult {
